@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PokeMatch.MainPage">
+
+    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+
+        <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Label Text="Type1" TextColor="Black" x:Name="Label1"
+                   HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
+                   Grid.Row="0" Grid.Column="0"/>
+
+            <Label Text="Type2" TextColor="Black" x:Name="Label2"
+                   HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
+                   Grid.Row="0" Grid.Column="1"/>
+
+            <Button Text="Grass"
+                Style="{StaticResource buttonStyle}"
+                Clicked="GrassButtonClicked"
+                Grid.Row="1" Grid.Column="0"/>
+
+            <Button Text="Rock"
+                Style="{StaticResource buttonStyle}"
+                Clicked="RockButtonClicked"
+                Grid.Row="1" Grid.Column="1"/>
+
+            <Button Text="Ice"
+                Style="{StaticResource buttonStyle}"
+                Clicked="IceButtonClicked"
+                Grid.Row="2" Grid.Column="0"/>
+
+            <Button Text="Dragon"
+                Style="{StaticResource buttonStyle}"
+                Clicked="DragonButtonClicked"
+                Grid.Row="2" Grid.Column="1"/>
+
+            <Button Text="Dark"
+                Style="{StaticResource buttonStyle}"
+                Clicked="DarkButtonClicked"
+                Grid.Row="3" Grid.Column="0"/>
+
+            <Button Text="Psychic"
+                Style="{StaticResource buttonStyle}"
+                Clicked="PsychicButtonClicked"
+                Grid.Row="3" Grid.Column="1"/>
+
+            <Button Text="Bug"
+                Style="{StaticResource buttonStyle}"
+                Clicked="BugButtonClicked"
+                Grid.Row="4" Grid.Column="0"/>
+
+            <Button Text="Flying"
+                Style="{StaticResource buttonStyle}"
+                Clicked="FlyingButtonClicked"
+                Grid.Row="4" Grid.Column="1"/>
+
+            <Button Text="Steel"
+                Style="{StaticResource buttonStyle}"
+                Clicked="SteelButtonClicked"
+                Grid.Row="5" Grid.Column="0"/>
+
+            <Button Text="Fire"
+                Style="{StaticResource buttonStyle}"
+                Clicked="FireButtonClicked"
+                Grid.Row="5" Grid.Column="1"/>
+            
+            <Button Text="Fighting"
+                Style="{StaticResource buttonStyle}"
+                Clicked="FightingButtonClicked"
+                Grid.Row="6" Grid.Column="0"/>
+
+            <Button Text="Ground"
+                Style="{StaticResource buttonStyle}"
+                Clicked="GroundButtonClicked"
+                Grid.Row="6" Grid.Column="1"/>
+            
+            <Button Text="Ghost"
+                Style="{StaticResource buttonStyle}"
+                Clicked="GhostButtonClicked"
+                Grid.Row="7" Grid.Column="0"/>
+
+            <Button Text="Poison"
+                Style="{StaticResource buttonStyle}"
+                Clicked="PoisonButtonClicked"
+                Grid.Row="7" Grid.Column="1"/>
+            
+            <Button Text="Water"
+                Style="{StaticResource buttonStyle}"
+                Clicked="WaterButtonClicked"
+                Grid.Row="8" Grid.Column="0"/>
+
+            <Button Text="Fairy"
+                Style="{StaticResource buttonStyle}"
+                Clicked="FairyButtonClicked"
+                Grid.Row="8" Grid.Column="1"/>
+
+            <Button Text="Electric"
+                Style="{StaticResource buttonStyle}"
+                Clicked="ElectricButtonClicked"
+                Grid.Row="9" Grid.Column="0"/>
+
+            <Button Text="Normal"
+                Style="{StaticResource buttonStyle}"
+                Clicked="NormalButtonClicked"
+                Grid.Row="9" Grid.Column="1"/>
+
+            <Button Text="Calculate!"
+                Style="{StaticResource buttonStyle}"
+                Clicked="CalculateButtonClicked"
+                Grid.Row="10" Grid.ColumnSpan="2"/>
+        </Grid>
+    </StackLayout>
+
+</ContentPage>
